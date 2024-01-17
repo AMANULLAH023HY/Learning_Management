@@ -1,7 +1,8 @@
 // CSS file
-import './App.css'
+import './app.css'
 // Libraries for react  
 import { Route, Routes } from 'react-router-dom'
+import Footer from './Components/Footer'
 
 // Component for use  
 
@@ -9,9 +10,8 @@ function App() {
 
   return (
     <>
-    <Routes>
-      <Route></Route>
-    </Routes>
+    
+    <Footer/>
     </>
   )
 }
