@@ -2,7 +2,8 @@
 import './app.css'
 // Libraries for react  
 import { Route, Routes } from 'react-router-dom'
-import Footer from './Components/Footer'
+
+import HomePage from './Pages/HomePage'
 
 // Component for use  
 
@@ -10,8 +11,9 @@ function App() {
 
   return (
     <>
-    
-    <Footer/>
+    <Routes>
+      <Route path='/' element={<HomePage/>}></Route>
+    </Routes>
     </>
   )
 }
