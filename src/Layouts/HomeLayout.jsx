@@ -146,7 +146,7 @@ function HomeLayout({ children }) {
                   </button>
 
                   <button className=" bg-purple-800 px-4 py-1 font-semibold rounded-md w-full ">
-                    <Link to="/login"> Signup</Link>
+                    <Link to="/signup"> Signup</Link>
                   </button>
                 </div>
                 </li>
