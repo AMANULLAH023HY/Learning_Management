@@ -5,7 +5,7 @@
 1. clone the project 
 
 ``` 
-        git clone ....url
+        git clone ...url
 
 ```
 2. move into the directories
