@@ -11,7 +11,7 @@
 2. move into the directories
 
 ```   
-        cd lmd
+        cd FolderName
 
 ```
 3.  install dependencies
